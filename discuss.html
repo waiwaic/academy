@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=previce-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="海南软件工程系掌上学院、软件工程系掌上学院、海南软件工程系学院、软件工程系学院、海南软件工程系、软件工程系、海南软件学院"/>
+	<meta name="description" content=""/>
+	<title>软件工程系掌上学院-讨论/交流</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mian.css">
+	<link rel="stylesheet" href="css/discuss.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="./js/discuss.js"></script>
+	<script src="./js/get_discuss.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" >
+		<div class="container">
+			<div class="row">
+				<div class=" col-lg-7 col-md-7 col-sm-6 col-xs-6 navb-left">
+					<a class="navbar-brand" id="logo">软件工程系掌上学院</a>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
+					<form class="pull-right input-group">
+						<input type="text" class="form-control input-sm" placeholder="Search">
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-lg btn-default btn-sm"><span class="glyphicon glyphicon-search"></span></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="title">
+		<h3 class="text-center">讨论/交流</h3>
+	</section>
+	<section class="discuss">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+					<div id="template" class="discuss-box">
+						<h5>C语言程序设计 </h5>
+						<span class="pull-right">2018-1-1 上午10:55</span>
+						<div class="row">
+							<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+								<a href="discussxq.html"><img src="images/u23-1.png" class="img-responsive center-block" alt=""></a>
+							</div>
+							<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 discuss-box-right">
+<!--								<h5>突然感觉C语言不是那么难</h5>-->
+								<p>今天在学C语言的时候，突然明白了C语言并不是那么难，我是不是成功地入门了</p>
+								<span class="pull-right">0 个回复</span>
+							</div>
+						</div>
+					</div>
+<!--
+					<div class="discuss-box">
+						<h5>来自：C语言程序设计 <span class="pull-right">2018-1-1 上午10:55</span></h5>
+						<div class="row">
+							<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+								<a href="#"><img src="images/u29-1.png" class="img-responsive center-block" alt=""></a>
+							</div>
+							<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 discuss-box-right">
+								<h5>突然感觉C语言不是那么难</h5>
+								<p>今天在学C语言的时候，突然明白了C语言并不是那么难，我是不是成功地入门了</p>
+								<span class="pull-right">50 个回复</span>
+							</div>
+						</div>
+					</div>
+					<div class="discuss-box">
+						<h5>来自：C语言程序设计 <span class="pull-right">2018-1-1 上午10:55</span></h5>
+						<div class="row">
+							<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+								<a href="#"><img src="images/u31-1.png" class="img-responsive center-block" alt=""></a>
+							</div>
+							<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 discuss-box-right">
+								<h5>突然感觉C语言不是那么难</h5>
+								<p>今天在学C语言的时候，突然明白了C语言并不是那么难，我是不是成功地入门了</p>
+								<span class="pull-right">50 个回复</span>
+							</div>
+						</div>
+					</div>
+-->
+				</div>
+			</div>
+		</div>
+		<form>
+		<div class="issue">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+						<h4>我要发布</h4>
+							<div class="form-group">
+<!--								<select id="tagid" class="form-control issue-top">
+									<option>C语言程序设计</option>
+									<option>Java</option>
+									<option>JavaScript</option>
+									<option>jQuery</option>
+									<option>bootstrap</option>
+								</select>-->
+								<input id="title" name="title" type="text" class="form-control issue-top" placeholder="标题" required="required">
+								<textarea id="content" name="content" id="" rows="7" class="form-control issue-top" placeholder="内容" required="required"></textarea>
+							</div>
+							<button onclick="post_discuss()" type="submit" class="btn btn-default">发布</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</form>
+	</section>
+	<footer id="footer">
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<a href="index.html"><img src="images/u35.png" class="center-block" alt="">
+							<p class="white">主页</p>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<a href="discuss.html"><img src="images/u36.png" class="center-block" alt="">
+							<p>交流</p>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<a href="note.html"><img src="images/u37.png" class="center-block" alt="">
+							<p>笔记</p>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<a href="me.html"><img src="images/u38.png" class="center-block" alt="">
+							<p>个人</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

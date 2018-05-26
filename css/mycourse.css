@@ -1,0 +1,73 @@
+/**我的课程**/
+.mycourse{
+	margin-bottom: 70px;
+}
+.mycourse h4{
+	margin-top: 25px;
+}
+.mycourse h4 a{
+	color: #fff;
+}
+.mycourse-box{
+	background-color: rgba(255,255,255,0.35);
+	margin-top: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.35);
+}
+.mycourse-box-left{
+	position: relative;
+}
+.plan{
+	position: absolute;
+	left: 30%;
+	top: 24%;
+	/*width: 100%;*/
+	color: #fff;
+}
+.plan h4{
+	font-size: 16px;
+}
+.mycourse-box-right{
+	padding-left: 0px;
+	color: #fff;
+}
+.mycourse-box-right h4{
+	font-size: 16px;
+	margin-top: 5px;
+}
+.mycourse-box-right p{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.mycourse-box-right a{
+	color: #282828;
+	font-size: 13px;
+}
+@media(min-width: 768px){
+	.mycourse-box{
+		background-color: rgba(255,255,255,0.35);
+		margin-top: 30px;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.plan{
+		position: absolute;
+		left: 40%;
+		top: 35%;
+		/*width: 100%;*/
+		color: #fff;
+	}
+	.mycourse-box-right h4{
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	.mycourse-box-right p{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.mycourse-box-right a{
+		color: #282828;
+		font-size: 14px;
+	}
+}

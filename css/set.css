@@ -1,0 +1,29 @@
+.mesz-main{
+	background-color: rgba(27,27,27,0.5);
+}
+.tit{
+	color: #fff;
+	margin-top: 25px;
+	font-weight: bold;
+}
+.tit-right{
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+.me-tx{
+	border-bottom: 1px solid #898686;
+	margin-bottom: 5px;
+}
+.nc{
+	color: #fff;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+.nc-right{
+	color: #fff;
+}
+.mesz-next{
+	background-color: rgba(27,27,27,0.5);
+	margin-top: 20px;
+	margin-bottom: 90px;
+}

@@ -1,0 +1,65 @@
+body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.details{
+	margin-top: 50px;
+	margin-bottom: 75px;
+}
+.del-vid{
+	height: 230px;
+
+}
+.del-main{
+	color: #fff;
+	border-bottom: 1px solid #797979;
+	padding-bottom: 20px;
+}
+.del-main h4{
+	line-height: 30px;
+	border-bottom: 1px solid #797979;
+	padding-bottom: 8px;
+}
+.del-main p{
+	line-height: 25px;
+}
+.del-main h5{
+	margin-top: 20px;
+}
+.lx{
+	color: #fff;
+	line-height: 30px;
+}
+.lx h4{
+	margin: 20px 0px;
+}
+.del-but{
+	margin-top: 15px;
+}
+.del-but a{
+	color: #fff;
+}
+.del-but .btn-default{
+	margin:0 auto;
+	margin-left:50%;
+	margin-top:2%;
+	display:inline-block;
+	padding:6px 12px;
+	background-color: #282828;
+	border: 1px solid #282828;
+}
+section{
+	/*position: absolute;*/
+
+}
+udio, canvas, progress, video {
+	width: 80%;
+	height: auto;
+	position: absolute;
+/*	display: inline-block;*/
+	vertical-align: baseline;
+	text-align: center;
+	margin: 0 10%;
+	padding-top: 5%;
+}

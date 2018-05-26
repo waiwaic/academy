@@ -1,0 +1,57 @@
+html{
+	font-family: "微软雅黑"
+}
+.me-main{
+	background-color:#574642;
+}
+.one{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.two{
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top:18px;
+	color: #fff;
+	line-height: 25px;
+}
+.two h4{
+	font-weight: bold;
+}
+.frist{
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.me-course{
+	margin-top:15px;
+}
+.tit p{
+	color: #fff;
+	padding-top: 10px;
+}
+.page-header{
+	margin: 5px 0px;
+	border-color: #898686;
+}
+.me-list{
+	background-color:#574642;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.list h4{
+	color: #fff;
+	font-weight: bold;
+}
+.list h4>a{
+	color: #fff !important;
+}
+.list h4>a:hover{
+	color: #23527c !important;
+}
+#zc{
+	margin-top: 20px;
+	color: #fff;
+}
+.me-anniu{
+	margin-bottom: 100px;
+}

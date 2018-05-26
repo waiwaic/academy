@@ -1,0 +1,67 @@
+
+body{
+	font-family: "微软雅黑";
+	color: #343434;
+	font-size: 14px;
+	background-image: url(../images/u1-1.png);
+	background-size:cover;
+}
+ul,li{
+	padding: 0px;
+	margin: 0px;
+}
+/*导航条*/
+.navbar-default{
+	background-color: rgba(28,28,28,0.5);
+	border-bottom-color:rgba(28,28,28,0.5);
+}
+.navbar-brand{
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 16px;
+}
+.navb-left{
+	padding-right: 0px;
+}
+.input-group{
+	margin-top: 9px;
+}
+#logo{
+	color: #fff;
+	text-shadow: 5px 5px 5px #000;
+}
+#nav{
+	background-image: url(../images/u2.png);
+	background-size: cover;
+}
+/*导航结束*/
+/*脚注开始*/
+#footer .navbar-default{
+	border-top-color:rgba(28,28,28,0.5);
+}
+#footer img{
+	width: 25px;
+	height: 25px;
+}
+#footer .navbar{
+	padding-top: 5px;
+}
+#footer a{
+	color: #897C7C;
+}
+.white{
+	color: #fff;
+}
+/*脚注结束*/
+/**标题**/
+.title{
+	background-image: url(../images/u2.png);
+	background-size: cover;
+	height: 180px;
+	box-shadow: 0px 5px 8px #38312f;
+}
+.title h3{
+	margin-top: 0px;
+	padding-top:105px;
+	color: #fff;
+}

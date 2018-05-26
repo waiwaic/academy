@@ -1,0 +1,61 @@
+/**意见反馈开始**/
+.opinion{
+	margin-bottom: 60px;
+}
+.opinion h4{
+	color:#fff;
+	margin-top: 30px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.opin-top{
+	margin-top: 15px;
+	background-color: #797979;
+	border: 1px solid #797979;
+}
+.opinion button{
+	color: #fff;
+}
+/**意见反馈结束**/
+/**常见问题开始**/
+.question{
+	margin-bottom: 60px;
+}
+.question-box{
+	background-image: url(../images/u218.png);
+	background-size: cover;
+	margin-top: 25px;
+	border-radius: 8px;
+	padding: 8px;
+	color: #fff;
+}
+.question-top{
+	margin-top:30px;
+}
+.question-box h4{
+	margin-top: 5px;
+	border-bottom: 1px solid #C9C9C9;
+	padding-bottom: 13px;
+}
+.question-box p{
+	margin: 0 0 5px;
+}
+.question-but a{
+	color: #fff;
+	line-height: 50px;
+}
+/**常见问题结束**/
+/**关于我们开始**/
+.about{
+	margin-bottom: 50px;
+}
+.about h4{
+	color: #fff;
+	margin-top: 20px;
+	line-height: 30px;
+}
+.red{
+	color: red;
+	font-weight: bold;
+}
+/**关于我们结束**/

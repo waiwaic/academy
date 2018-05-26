@@ -1,0 +1,114 @@
+/**交流、讨论**/
+.discuss{
+	color: #fff;
+	margin-bottom: 50px;
+}
+.discuss h4 a{
+	color: #000;
+	font-size: 18px;
+	line-height: 50px;
+}
+.discuss-box{
+	background-image: url(../images/u218.png);
+	background-size: cover;
+	margin-top: 30px;
+	padding: 8px;
+}
+.discuss-box h5{
+	font-size: 16px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 10px;
+}
+.discuss-box h5 span{
+	font-size: 12px;
+	margin-top: 5px;
+}
+.discuss-box-right{
+	padding-left: 0px;
+}
+.discuss-box-right h5{
+	font-size: 15px;
+	border-bottom:none;
+	margin-top: 5px;
+	padding-bottom:0px;
+	margin-bottom: 5px;
+}
+.discuss-box-right p{
+	display: -webkit-box;
+	overflow: hidden;
+	white-space: normal!important;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.discuss-box-right span{
+	font-size: 12px;
+	color: #d7d7d7;
+}
+.issue{
+	background-color: #473f3d;
+	padding-bottom: 30px;
+}
+.issue h4{
+	margin-top: 20px;
+}
+.issue-top{
+	margin-top: 20px;
+	background-color:#797979;
+	border: 1px solid #797979;
+}
+.issue .btn-default{
+	background-color:#797979;
+	border: 1px solid #797979;
+	margin-top: 10px;
+}
+/**交流、讨论详情**/
+.discussxq{
+	color: #fff;
+	margin-bottom: 80px;
+}
+.discussxq h4{
+	line-height: 35px;
+	margin-top: 20px;
+}
+.discussxq h5{
+	border-bottom: 1px solid #F0ECEC;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+}
+.discussxq p{
+	line-height: 25px;
+}
+.discussxq .btn-default{
+	background-color: #3f3331;
+	border: 1px solid #3f3331;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.discussxq .panel-body p{
+	color: #343434;
+}
+.discussxq .panel{
+	margin-top: 30px;
+}
+.panel-default .panel-heading{
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.panel-footer{
+	background-color: #fff;
+	color: #343434;
+}
+.panel h5{
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+.discussxq .more a{
+	color: #fff;
+}
+.discussxq .color{
+	color: #548fc1;
+}

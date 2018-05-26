@@ -1,0 +1,38 @@
+
+/**课程章节开始**/
+.section h4,.difficulty h4{
+	color: #fff;
+	line-height: 40px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #797979;
+}
+.section h5{
+	color: #fff;
+	line-height: 30px;
+}
+.section .panel-body,.difficulty .panel-body{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.section .panel{
+	margin-bottom:15px;
+}
+.section-list a,.difficul-list a{
+	color: #343434;
+}
+.section{
+	padding-bottom: 70px;
+}
+/**课程章节结束**/
+/**难点分析开始**/
+.difficul-list .panel{
+	margin-top: 20px;
+}
+.difficulty{
+	margin-bottom: 70px;
+}
+.more a{
+	color: #000;
+	font-size: 18px;
+}
+/**难点分析结束**/

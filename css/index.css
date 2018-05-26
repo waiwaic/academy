@@ -1,0 +1,85 @@
+/**菜单**/
+#menu{
+	background-image: url(../images/u2.png);
+	background-size: cover;
+	padding: 60px 0px 20px 0px;
+	border-bottom: 1px solid #38312f;
+	box-shadow: 0px 5px 8px #38312f;
+}
+#menu .btn-default{
+	background-color: #323232;
+	border-color: #797979;
+	border-radius: 8px;
+	color: #fff;
+}
+#menu .btn-sm{
+	padding: 4px 13px;
+}
+.list{
+	margin-top: 10px;
+}
+.list li{
+	list-style: none;
+	float: left;
+	/*margin-right: 15px;*/
+	line-height: 25px;
+	padding: 0px 10px 0px 10px;
+}
+.clear{
+	clear: both;
+}
+.list li a{
+	display: block;
+	line-height: 25px;
+	color: #999999;
+	width: 35px;
+	height: 30px;
+	text-align: center;
+}
+.list-title{
+	width: 60px;
+	text-align: center;
+	border: 1px solid #797979;
+	background-color:#323232;
+	color: #fff;
+	border-radius: 8px;
+	font-size: 15px;
+}
+#special{
+	 margin-bottom: 4px; 
+}
+/**菜单结束**/
+/**课程开始**/
+.course{
+	padding-top: 25px;
+	padding-bottom: 70px;
+}
+.course img{
+	box-shadow: 5px 5px 5px #393F3B;
+}
+.couese-left{
+	padding-right: 10px;
+}
+.couese-right{
+	padding-left: 10px;
+}
+.course-box{
+	padding-top: 0px;
+}
+.course-box img{
+	margin-bottom: 5px;
+}
+.course-box p{
+	text-align: center!important;
+	color: #fff;
+}
+.more a{
+	color: #000;
+	font-size: 15px;
+}
+/* 媒体查询 */
+@media screen and (min-width:320px) {
+	.list li a {
+		width: 38px;
+	}
+}

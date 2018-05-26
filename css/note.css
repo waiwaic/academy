@@ -1,0 +1,105 @@
+/*笔记知识*/
+.note-list{
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding:10px;
+	margin-top: 25px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.35);
+}
+.note{
+	margin-bottom: 60px;
+}
+.note-list h4{
+	line-height: 25px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 10px;
+}
+.note-list-box{
+	position: relative;
+}
+.browse{
+	background-color:rgba(43,43,43,0.2);
+	height: 50px;
+	padding: 5px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.note-list p{
+	line-height: 25px;
+}
+.note-to{
+	margin-top: 10px;
+}
+.color{
+	color: #666;
+}
+.note-but{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.note-but a{
+	color: #fff;
+	font-size: 15px;
+}
+/*我要发布*/
+/*.issue{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding-bottom: 80px;
+}
+.issue h3{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.issue-top{
+	margin-top: 16px;
+	background-color: #797979;
+	border: 1px solid #797979;
+	color: #fff;
+}*/
+
+
+/**笔记——详情**/
+.notexq{
+	margin-top: 10px;
+	color: #fff;
+	margin-bottom: 90px;
+}
+.notexq h4{
+	line-height: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d7d7d7;
+}
+.notexq h4 small{
+	color: #fff;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.notexq-top{
+	margin-top: 21px;
+	margin-bottom: 10px;
+}
+.notexq p{
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+.notexq h5{
+	letter-spacing: 1px;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.notexq a{
+	color: #fff;
+	font-size: 16px;
+}
+.notexq .bg a{
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+}
+.bg{
+	background-color: #3f3331;
+}
