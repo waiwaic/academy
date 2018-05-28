@@ -7,6 +7,7 @@ xmlhttp.onreadystatechange=function(){
 		for(i=0;i<videos.length;++i){
 			clonenode=document.getElementById('template').cloneNode(true);
 			clonenode.setAttribute('id','video'+videos[i]['id']);
+			clonenode.childNodes[1].childNodes[0].setAttribute('src','./video_logo/'+videos[i]['id']);
 			clonenode.childNodes[1].setAttribute('href','details.html?'+videos[i]['id']);
 			clonenode.childNodes[3].innerHTML=videos[i]['name'];
 			parentNode.append(clonenode);

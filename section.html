@@ -14,17 +14,18 @@
 	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
+		<!--头部-->
 	<nav class="navbar navbar-default navbar-fixed-top" >
 		<div class="container">
 			<div class="row">
 				<div class=" col-lg-7 col-md-7 col-sm-6 col-xs-6 navb-left">
-					<a href="course.html" class="navbar-brand"><img src="images/u65.png" alt=""></a>
+					<a class="navbar-brand" id="logo"><img class="img-responsive" src="images/logo.png"  alt="软件工程系掌上学院" /></a>
 				</div>
 				<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
-					<form class="pull-right input-group">
-						<input type="text" class="form-control input-sm" placeholder="Search">
+					<form action="search.html" method="get" class="pull-right input-group">
+						<input type="text" name="search" class="form-control input-sm"			 placeholder="Search">
 						<div class="input-group-btn">
-							<button type="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search"></span></button>
+							<button type="submit" class="btn btn-lg btn-default btn-sm"><span class="glyphicon glyphicon-search"></span></button>
 						</div>
 					</form>
 				</div>
@@ -99,22 +100,22 @@
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-						<a href="index.html"><img src="images/u35.png" class="center-block" alt="">
+						<a class="active01" href="index.html"><i class="glyphicon glyphicon-home" alt=""></i>
 							<p class="white">主页</p>
 						</a>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-						<a href="discuss.html"><img src="images/u36.png" class="center-block" alt="">
+						<a href="discuss.html"><i class="glyphicon glyphicon-send" alt=""></i>
 							<p>交流</p>
 						</a>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-						<a href="note.html"><img src="images/u37.png" class="center-block" alt="">
-							<p>笔记</p>
+						<a href="note.html"><i class="glyphicon glyphicon-book" alt=""></i>
+							<p>笔记</p>					
 						</a>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-						<a href="me.html"><img src="images/u38.png" class="center-block" alt="">
+						<a href="me.html"><i class="glyphicon glyphicon-user" alt=""></i>
 							<p>个人</p>
 						</a>
 					</div>

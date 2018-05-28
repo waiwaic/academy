@@ -11,7 +11,7 @@ if (xmlhttp.readyState==4 && xmlhttp.status==200){
 		clonenode.childNodes[1].childNodes[5].innerHTML=notes[i]['content'];
 		parentNode.append(clonenode);
 	}
-	document.getElementById('template').remove();
 }
+	document.getElementById('template').remove();
 }
 xmlhttp.send();

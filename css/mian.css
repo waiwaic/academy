@@ -1,10 +1,12 @@
 
-body{
-	font-family: "微软雅黑";
-	color: #343434;
-	font-size: 14px;
-	background-image: url(../images/u1-1.png);
-	background-size:cover;
+body{font-family: "微软雅黑";
+    color: #343434;
+    font-size: 14px;
+    background-image: url(../images/u1-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 ul,li{
 	padding: 0px;
@@ -14,34 +16,33 @@ ul,li{
 .navbar-default{
 	background-color: rgba(28,28,28,0.5);
 	border-bottom-color:rgba(28,28,28,0.5);
-}
+} 
 .navbar-brand{
+margin-top: -10px;
 	padding-left: 0px;
 	padding-right: 0px;
 	font-size: 16px;
-}
+}	
 .navb-left{
 	padding-right: 0px;
 }
 .input-group{
 	margin-top: 9px;
 }
-#logo{
-	color: #fff;
-	text-shadow: 5px 5px 5px #000;
+nav img{
+	height:40px;	
 }
 #nav{
 	background-image: url(../images/u2.png);
 	background-size: cover;
 }
 /*导航结束*/
-/*脚注开始*/
+/*脚注开始*/		
 #footer .navbar-default{
 	border-top-color:rgba(28,28,28,0.5);
 }
-#footer img{
-	width: 25px;
-	height: 25px;
+#footer a{							
+	color: #fff;
 }
 #footer .navbar{
 	padding-top: 5px;
@@ -51,6 +52,9 @@ ul,li{
 }
 .white{
 	color: #fff;
+}
+.active01{
+	color:blue !important;
 }
 /*脚注结束*/
 /**标题**/

@@ -6,7 +6,7 @@ xmlhttp.onreadystatechange=function(){
 		if(xmlhttp.responseText){
 			window.location="./mycollect.html";
 		}else{
-			alert("您已收藏此视频");
+			window.location="./register.html"
 		}
 	}
 }
