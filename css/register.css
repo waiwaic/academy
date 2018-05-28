@@ -2,42 +2,41 @@
 /***登录开始***/
 /**表单**/
 .register{
-	padding-top: 60px;
-	padding-bottom:50px; 
+	margin-bottom: 100px;
+	/*padding-top: 15px;*/
 }
 .register p{
 	margin-top: 10px;
-}
-.register p a{
-	color: #fff;
 }
 .reg-top{
 	margin-top: 25px;
 }
 #dl{
-	background-color: rgba(56,51,49,0.5);
 	color: #fff;
 	font-size: 15px;
 	margin-top: 40px;
+	width: 100%;
 }
-/***登录结束***/
+
+/***登录
+结束***/
 /***注册开始***/
 .login{
-	margin-top: 25px;
-	padding-bottom: 50px;
+	margin-top: 30px;
+	padding-bottom: 100px;
 }
 .log-top{
 	margin-top: 18px;
 }
 .login p a{
-	color: #fff;
+	color:#228B22;
 }
 .login p{
 	margin-top: 10px;
 }
 #zc{
 	margin-top: 40px;
-	background-color: #312c2b;
+	/*background-color: #312c2b;*/
 	color: #fff;
 }
 /***注册结束***/

@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(isset($_SESSION[id])){
+if(isset($_SESSION)){
 	if(!$_SESSION[course])
 		$_SESSION[course]=array();
 	if(!in_array($_POST[course],$_SESSION[course])){

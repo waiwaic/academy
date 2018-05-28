@@ -1,57 +1,47 @@
 html{
 	font-family: "微软雅黑"
 }
-.me-main{
-	background-color:#574642;
-}
 .one{
-	margin-top:20px;
-	margin-bottom: 20px;
+	margin:20px 0;
 }
 .two{
-	padding-left: 0px;
-	margin-left: 0px;
 	margin-top:18px;
-	color: #fff;
+	color: #000;
 	line-height: 25px;
 }
 .two h4{
 	font-weight: bold;
 }
-.frist{
-	padding-right: 0px;
-	margin-right: 0px;
-}
-.me-course{
-	margin-top:15px;
+.frist,.two{
+	padding-right: 0;
+	margin-right: 0;
 }
 .tit p{
-	color: #fff;
+	color: #000;
 	padding-top: 10px;
 }
-.page-header{
-	margin: 5px 0px;
-	border-color: #898686;
+#page-header{
+	border: none;
 }
 .me-list{
-	background-color:#574642;
+	padding-left: 15px;
 	margin-top: 20px;
 	padding-bottom: 20px;
 }
-.list h4{
-	color: #fff;
-	font-weight: bold;
+/*列表*/
+#list-group a{
+	padding: 20px 10px ;
 }
-.list h4>a{
-	color: #fff !important;
+#page-header{
+	padding: 10px -0px;
 }
-.list h4>a:hover{
-	color: #23527c !important;
+/*退出登录*/
+.me-anniu{
+	margin-top: 50px;
 }
 #zc{
 	margin-top: 20px;
+	width: 100%;
 	color: #fff;
 }
-.me-anniu{
-	margin-bottom: 100px;
-}
+

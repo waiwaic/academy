@@ -1,8 +1,11 @@
 .mesz-main{
-	background-color: rgba(27,27,27,0.5);
+	background-color: #ccc;
 }
+/*.title{*/
+	/*color: #000;*/
+/*}*/
 .tit{
-	color: #fff;
+	color: #000;
 	margin-top: 25px;
 	font-weight: bold;
 }
@@ -15,15 +18,31 @@
 	margin-bottom: 5px;
 }
 .nc{
-	color: #fff;
-	font-weight: bold;
+	color: #5f5454;
 	margin: 20px 0px;
 }
 .nc-right{
-	color: #fff;
+		font-size: 14px;
+	color: #888;
+}
+.nc-right:hover{
+
+	color: red;
 }
 .mesz-next{
-	background-color: rgba(27,27,27,0.5);
+	background-color: rgba(27,27,27,0.35);
 	margin-top: 20px;
 	margin-bottom: 90px;
+}
+a{
+	color:#5f5454; 
+}
+ a:hover {
+    color: red;
+    text-decoration: none;
+}
+#cat{
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000;
 }

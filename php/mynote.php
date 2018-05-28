@@ -8,7 +8,7 @@ if(isset($_SESSION[id])){
 	$dbh=new dbh();
 	$sth=$dbh->prepare('UPDATE users SET session=? WHERE id=?');
 	$sth->execute(array(session_encode(),$_SESSION[id]));
-	$sth=$dbh->prepare('INSERT INTO note(title,content,username,datetime) VALUES (?,?,?,NOW())');
-	$sth->execute(array($_POST['title'],$_POST['content'],$_SESSION['username']));
+	$sth=$dbh->prepare('INSERT INTO note(title,content) VALUES (?,?)');
+	$sth->execute(array($_POST[title],$_POST[content]));
 }
 

@@ -1,0 +1,31 @@
+section{
+	margin:0 0 80px 0;
+}
+.content .row{
+	padding-top: 20px;
+	margin: 0;
+	border:1px solid #ccc;
+}
+.row p{
+	font-size: 14px;
+}
+/*.btn{*/
+	/*font-size: 9px;*/
+/*}*/
+span{
+	margin-left: 45px;
+}
+button,span{
+	font-size: 10px;
+	color: #888;
+}
+.s-img{
+	margin:20px 0;
+	border-radius: 3px;
+}
+
+.card{
+	padding: 15px;
+	margin: 20px 0;
+	border: 1px solid rgba(222,222,222,1);
+}

@@ -1,28 +1,43 @@
 
 /**课程章节开始**/
 .section h4,.difficulty h4{
-	color: #fff;
+	/*color: #fff;*/
+	margin-top: 30px;
 	line-height: 40px;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #797979;
 }
 .section h5{
-	color: #fff;
 	line-height: 30px;
 }
-.section .panel-body,.difficulty .panel-body{
-	padding-top: 7px;
-	padding-bottom: 7px;
+/*.section .panel-body,.difficulty .panel-body{*/
+	/*padding-top: 7px;*/
+	/*padding-bottom: 7px;*/
+/*}*/
+/*.section-list a,.difficul-list a{*/
+	/*color: #343434;*/
+/*}*/
+/*.panel-body a{*/
+	/*font-size: 12px;*/
+/*}*/
+/*.section{*/
+	/*margin-top: -10px;*/
+	/*margin-bottom: 100px;*/
+/*}*/
+/*i{*/
+	/*!*color: green;*!*/
+	/*float: right;*/
+/*}*/
+.title{
+	background-image: url(../image/mohu/c-1.png);
 }
-.section .panel{
-	margin-bottom:15px;
+.title h3{
+	margin-top: 60px;
 }
-.section-list a,.difficul-list a{
-	color: #343434;
-}
-.section{
-	padding-bottom: 70px;
-}
+/*.more a{*/
+	/*color: #cd7105cc;*/
+/*}*/
+
 /**课程章节结束**/
 /**难点分析开始**/
 .difficul-list .panel{

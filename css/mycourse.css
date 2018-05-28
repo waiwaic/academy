@@ -2,21 +2,30 @@
 .mycourse{
 	margin-bottom: 70px;
 }
-.mycourse h4{
-	margin-top: 25px;
+.mycourse h4 {
+	margin-top:32px;
+	margin-bottom: 30px;
 }
 .mycourse h4 a{
-	color: #fff;
+	color: #cd7105cc;
+	font-weight: bold;
 }
 .mycourse-box{
 	background-color: rgba(255,255,255,0.35);
-	margin-top: 20px;
+	margin-top: 10px;
 	padding: 5px;
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.35);
 }
 .mycourse-box-left{
 	position: relative;
+}
+.mycourse-box-left img{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.text-center{
+	color: #000;
 }
 .plan{
 	position: absolute;
@@ -26,6 +35,7 @@
 	color: #fff;
 }
 .plan h4{
+	margin-left: -10px;
 	font-size: 16px;
 }
 .mycourse-box-right{
@@ -41,15 +51,26 @@
 	margin-bottom: 5px;
 }
 .mycourse-box-right a{
+	margin-top: -60px;
 	color: #282828;
 	font-size: 13px;
 }
+.mycourse-box-right a:hover{
+	color: red;
+}
+.more a{
+	font-size: 20px;
+	color: #cd7105cc;
+	font-weight: bold;
+}
 @media(min-width: 768px){
 	.mycourse-box{
-		background-color: rgba(255,255,255,0.35);
+		background-color: #fffffa;
+		border: 1px solid rgba(222,222,222,0.34);
 		margin-top: 30px;
 		padding: 5px;
 		border-radius: 5px;
+
 	}
 	.plan{
 		position: absolute;

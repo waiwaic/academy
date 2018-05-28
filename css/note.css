@@ -1,7 +1,8 @@
 /*笔记知识*/
 .note-list{
-	background-color: #fff;
-	border: 1px solid #fff;
+	/*background-color: #000;*/
+	/*border: 1px solid #000;*/
+	border: 1px solid rgba(222,222,222,0.34);
 	border-radius: 10px;
 	padding:10px;
 	margin-top: 25px;
@@ -24,7 +25,7 @@
 	padding: 5px;
 	width: 100%;
 	position: absolute;
-	top: 0px;
+	bottom: 0px;
 	left: 0px;
 }
 .note-list p{
@@ -32,36 +33,19 @@
 }
 .note-to{
 	margin-top: 10px;
+	text-indent: 2em;
 }
 .color{
 	color: #666;
 }
-.note-but{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+
 .note-but a{
-	color: #fff;
+	color: #000;
 	font-size: 15px;
 }
-/*我要发布*/
-/*.issue{
-	background-color: rgba(0,0,0,0.5);
-	color: #fff;
-	padding-bottom: 80px;
+.title .text-center{
+	margin-top: 30px;
 }
-.issue h3{
-	font-size: 20px;
-	margin-bottom: 20px;
-}
-.issue-top{
-	margin-top: 16px;
-	background-color: #797979;
-	border: 1px solid #797979;
-	color: #fff;
-}*/
-
-
 /**笔记——详情**/
 .notexq{
 	margin-top: 10px;
@@ -74,7 +58,7 @@
 	border-bottom: 1px solid #d7d7d7;
 }
 .notexq h4 small{
-	color: #fff;
+	color: #000;
 	font-size: 14px;
 	margin-top: 10px;
 }
@@ -83,6 +67,8 @@
 	margin-bottom: 10px;
 }
 .notexq p{
+	text-indent: 2em;
+	color: #000;
 	line-height: 30px;
 	letter-spacing: 1px;
 }
@@ -92,11 +78,11 @@
 	margin-bottom: 20px;
 }
 .notexq a{
-	color: #fff;
+	color: #000;
 	font-size: 16px;
 }
 .notexq .bg a{
-	color: #fff;
+	color: #000;
 	font-size: 16px;
 	line-height: 50px;
 }

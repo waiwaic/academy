@@ -1,71 +1,68 @@
-
-body{font-family: "微软雅黑";
-    color: #343434;
-    font-size: 14px;
-    background-image: url(../images/u1-1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+a:hover{
+	text-decoration: none;
+}
+body{
+	font-family: "微软雅黑";
+	color: #343434;
+	font-size: 14px;
+	background-size:cover;
 }
 ul,li{
 	padding: 0px;
 	margin: 0px;
 }
-/*导航条*/
-.navbar-default{
-	background-color: rgba(28,28,28,0.5);
-	border-bottom-color:rgba(28,28,28,0.5);
-} 
-.navbar-brand{
-margin-top: -10px;
-	padding-left: 0px;
-	padding-right: 0px;
+.navbar-header img{
+	/*margin-top: -10px;*/
+}
+.navbar-brand {
+    /*padding: 15px 0px;*/
+}
+.col-lg-3,.col-md-3,.col-sm-3,.col-xs-6 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 0;
+}
+#Carousel{
+	margin-top: 50px;
+}
+/*more*/
+.more{
+	margin: 60px 0;
+}
+.more a{
 	font-size: 16px;
-}	
-.navb-left{
-	padding-right: 0px;
+	color: #cd7105cc;
+	font-weight: bold;
 }
-.input-group{
-	margin-top: 9px;
+/*尾部*/
+footer .container{
+	width: 100%;
+	background: #f8f8f8;
+	border-color: #e7e7e7;
+	margin-top: -70px;
 }
-nav img{
-	height:40px;	
+footer .container p{
+	font-size: 14px;
 }
-#nav{
-	background-image: url(../images/u2.png);
-	background-size: cover;
+footer .container .fa{
+	padding-top: 20px;
+	color: black;
+	font-size:2em;
 }
-/*导航结束*/
-/*脚注开始*/		
-#footer .navbar-default{
-	border-top-color:rgba(28,28,28,0.5);
+.row{
+	margin: 0;
 }
-#footer a{							
-	color: #fff;
-}
-#footer .navbar{
-	padding-top: 5px;
-}
-#footer a{
-	color: #897C7C;
-}
-.white{
-	color: #fff;
-}
-.active01{
-	color:blue !important;
-}
-/*脚注结束*/
-/**标题**/
+/*大标题*/
 .title{
-	background-image: url(../images/u2.png);
+	background-image: url(../image/mohu/c-1.png);
 	background-size: cover;
 	height: 180px;
-	box-shadow: 0px 5px 8px #38312f;
+	box-shadow: none;
+	margin-top: 63px;
 }
 .title h3{
 	margin-top: 0px;
-	padding-top:105px;
-	color: #fff;
+	padding-top:60px;
+	color: #000;
 }

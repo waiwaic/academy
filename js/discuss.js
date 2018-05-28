@@ -1,4 +1,4 @@
-function post_discuss(){
+function discuss(){
 title=document.getElementById('title').value;
 content=document.getElementById('content').value;
 xmlhttp=new XMLHttpRequest();
